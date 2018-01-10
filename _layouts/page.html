@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post">
+
+  {% comment %}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+  {% endcomment %}
+  {% if page.post_title %}
+  <h2 class="post-title">{{ page.post_title | escape }}</h2>
+  {% endif %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
