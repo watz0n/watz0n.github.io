@@ -19,7 +19,7 @@ email: watz0n.tw@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An engineering technology blog by watz0n.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.watz0n.tech" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  watz0n
 
